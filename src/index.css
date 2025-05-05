@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+
+
+.grid-layout {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100px 100px 100px 100px;
+  gap: 2rem;
+  grid-template-areas: "S1 M"
+                       "S2 M"
+                       "S3 M"
+                       "S4 M";
+}
+
+.grid-layout > .side-1 {
+  grid-area: S1;
+}
+
+.grid-layout > .side-2 {
+  grid-area: S2;
+}
+
+.grid-layout > .side-3 {
+  grid-area: S3;
+}
+
+.grid-layout > .side-4 {
+  grid-area: S4;
+}
+
+.grid-layout > .main {
+  grid-area: M;
+}
+
+.grid-layout .grid-cell {
+  
+}
+
+
+
