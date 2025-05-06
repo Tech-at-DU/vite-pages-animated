@@ -3,6 +3,8 @@ This project contains a grab bag of examples using Framer Motion and React.
 
 Be sure to check App.jsx and comment and uncomment the components found there. Examine these components for more details. 
 
+Here is a link to another example animating pages with react router: https://github.com/Tech-at-DU/vite-pages-animated
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
